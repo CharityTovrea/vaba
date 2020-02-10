@@ -115,4 +115,64 @@
     padding: 6px 12px;
     width: 100%;
   }
-  
+  .button-group {
+    text-align: left;
+  }
+  .button-group button {
+    border: none;
+    background: white;
+    color: #565656;
+    font-size: 12px;
+    padding: 0 5px 0 0;
+  }
+  .button-group button:last-child {
+    float: right;
+    padding: 0;
+  }
+  .button-group button:hover {
+    color: #5e5e5e;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+  body > footer {
+    background: #f8f9fd;
+    height: 200px;
+    padding: 0 20%;
+    position: relative;
+  }
+  .previous-article,
+  .next-srticle {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+  }
+  .previous-article {
+    left: 20%;
+    position: absolute;
+  }
+  .previous-button {
+    text-align: left;
+  }
+  .next-article {
+    position: absolute;
+    right: 20%;
+  }
+  .next-button {
+    text-align: left;
+  }
+  .previous-button,
+  .next-button {
+   margin: 10% 0;
+  }
+  .previous-button a,
+  .next-button a {
+    color: #434345;
+    font-weight: bold;
+    margin: 3% 0;
+    text-decoration: none;
+  }
+  .previous-button p,
+  .next-button p {
+    font-weight: normal;
+    margin: 3% 0;
+  }
